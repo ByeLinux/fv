@@ -4,7 +4,7 @@ html {
   justify-content: center;
   align-items: center;
   color: yellow;
-  height: 140vh; /* Alterado para 100vh */
+  height: 100vh; /* Alterado para 100vh */
   margin: 0;
   overflow: hidden;
 }
