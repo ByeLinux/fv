@@ -1,4 +1,4 @@
-<script></script>
+
 const cidades_brasileiras = {
     //Cidades de São Paulo
     "Adamantina - SP": [-21.6821, -51.0737],
