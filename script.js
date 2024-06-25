@@ -5086,7 +5086,7 @@ const cidades_brasileiras = {
     "Polo Jacinto - MG": [-16.1423, -40.2998],
     "Polo Caratinga - MG": [-19.7866, -42.1284],
     "Polo São Francisco do Glória - MG": [-20.7922, -42.2717],
-    "Polo Ibituruna - MG": [-21.1496, -43.1021]
+    "Polo Ibituruna - MG": [-21.1496, -43.1021],
 
 
 
