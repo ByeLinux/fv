@@ -5376,12 +5376,25 @@ const cidades_brasileiras = {
     return valor * Math.PI / 180;
   }
 
+  function formatarNomeCidade(nomeCidade) {
+    const partes = nomeCidade.trim().toLowerCase().split('-');
+    const cidade = partes[0].trim();
+    const uf = partes[1] ? partes[1].trim().toUpperCase() : '';
+
+    const partesNome = cidade.split(' ');
+    const nomeFormatado = partesNome.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+
+    return `${nomeFormatado} - ${uf}`;
+  }
+
   function encontrarPoloMaisProximo(cidade) {
+    const cidadeFormatada = formatarNomeCidade(cidade);
+
     let menorDistancia = Infinity;
     let poloProximo = null;
 
-    if (cidade in cidades_brasileiras) {
-      const coordenadasAluno = cidades_brasileiras[cidade];
+    if (cidadeFormatada in cidades_brasileiras) {
+      const coordenadasAluno = cidades_brasileiras[cidadeFormatada];
 
       for (const [polo, coordenadas] of Object.entries(polos_Faveni)) {
         const distancia = calcularDistancia(coordenadasAluno[0], coordenadasAluno[1], coordenadas[0], coordenadas[1]);
@@ -5399,6 +5412,7 @@ const cidades_brasileiras = {
     const cidadeAluno = document.getElementById('cidade').value.trim();
     const resultadoElement = document.getElementById('resultado');
     const [poloProximo, distancia] = encontrarPoloMaisProximo(cidadeAluno);
+
     if (poloProximo) {
       resultadoElement.textContent = `O polo mais próximo de ${cidadeAluno} está em ${poloProximo} e está a aproximadamente ${distancia.toFixed(2)} km de distância.`;
     } else {
