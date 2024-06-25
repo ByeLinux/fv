@@ -4978,7 +4978,7 @@ const cidades_brasileiras = {
     "Polo Praia Grande - SP": [-24.0058, -46.4028],
     "Polo Araçatuba - SP": [-21.2020, -50.4401],
     "Polo Cerquilho - SP": [-23.1693, -47.7492],
-    "Polo São Paulo - SP": [-23.5000, -46.6167],
+    "Polo São Paulo 1 - SP": [-23.5000, -46.6167],
     "Polo Dourado - SP": [-22.2383, -48.3155],
     "Polo São José do Campo - SP": [-23.1896, -45.8846],
     "Polo Iguape - SP": [-24.7087, -47.5564],
