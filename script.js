@@ -109,6 +109,7 @@ const cidades_brasileiras = {
     "Cajati - SP": [-24.7339, -48.1221],
     "Cajobi - SP": [-20.8786, -48.8063],
     "Cajuru - SP": [-21.2746, -47.3035],
+    "Capão Redondo - SP": [-23.6679, -46.7766],
     "Campina do Monte Alegre - SP": [-23.5968, -48.4787],
     "Campinas - SP": [-22.9099, -47.0626],
     "Campo Limpo Paulista - SP": [-23.2104, -46.7804],
