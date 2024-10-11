@@ -313,6 +313,7 @@ const cidades_brasileiras = {
     "Itaporanga - SP": [-23.7047, -49.4815],
     "Itapuí - SP": [-22.2324, -48.7196],
     "Osasco - SP": [-23.5329, -46.7915],
+    "Ourinhos - SP": [-22.9797, -49.8707],    
     "Pontalinda - SP": [-20.4401, -50.5255],
     "Pontes Gestal - SP": [-20.1722, -50.6122],
     "Populina - SP": [-19.9385, -50.5379],
@@ -4998,6 +4999,75 @@ const cidades_brasileiras = {
     "Polo São Carlos - SP": [-22.0154, -47.8947],
     "Polo Monte Azul Paulista - SP": [-20.9066, -48.6414],
     "Polo Ribeirão Preto - SP": [-21.1767, -47.8209],
+    "Polo Praia Grande - SP": [-24.0058, -46.4026],
+    "Polo Franca - SP": [-20.5383, -47.4009],
+    "Polo Hortolândia - SP": [-22.8583, -47.2126],
+    "Polo Indaiatuba - SP": [-23.0816, -47.2101],
+    "Polo Mauá - SP": [-23.6677, -46.4613],
+    "Polo Taubaté - SP": [-23.0264, -45.5553],
+    "Polo Jundiaí - SP": [-23.1857, -46.8978],
+    "Polo Marília - SP": [-22.217, -49.9501],
+    "Polo Guarujá - SP": [-23.9884, -46.256],
+    "Polo Piracicaba - SP": [-22.7337, -47.6476],
+    "Polo Campinas - SP": [-22.9056, -47.0608],
+    "Polo Carapicuíba - SP": [-23.5227, -46.8353],
+    "Polo Diadema - SP": [-23.6813, -46.6205],
+    "Polo Osasco - SP": [-23.5325, -46.7916],
+    "Polo Ribeirão Preto - SP": [-21.1775, -47.8103],
+    "Polo São Paulo - SP": [-23.5505, -46.6333],
+    "Polo Dom Alberto - SP": [-28.7146, -52.4488],
+    "Polo Cidade - SP": [-23.5505, -46.6333],
+    "Polo Itajobi - SP": [-21.3122, -49.0621],
+    "Polo Caraguatatuba - SP": [-23.6208, -45.4132],
+    "Polo Pindorama - SP": [-21.1855, -48.9018],
+    "Polo Itaquaquecetuba - SP": [-23.4835, -46.3487],
+    "Polo São Paulo - SP": [-23.5505, -46.6333],
+    "Polo Orlândia - SP": [-20.7208, -47.8866],
+    "Polo São Bernardo do Campo - SP": [-23.6914, -46.5646],
+    "Polo Taboão da Serra - SP": [-23.6019, -46.7526],
+    "Polo Jacareí - SP": [-23.3053, -45.965],
+    "Polo Catanduva - SP": [-21.136, -48.9723],
+    "Polo Leme - SP": [-22.1807, -47.3837],
+    "Polo São José dos Campos - SP": [-23.1896, -45.8841],
+    "Polo Brotas - SP": [-22.2792, -48.1269],
+    "Polo Cajati - SP": [-24.7335, -48.1223],
+    "Polo Campos do Jordão - SP": [-22.7383, -45.5925],
+    "Polo Santa Rita do Passa Quatro - SP": [-21.7088, -47.4788],
+    "Polo Tremembé - SP": [-22.9577, -45.5473],
+    "Polo Aguaí - SP": [-22.0595, -46.9788],
+    "Polo Laranjal Paulista - SP": [-23.0492, -47.8374],
+    "Polo Cabreúva - SP": [-23.3053, -47.1362],
+    "Polo Cachoeira Paulista - SP": [-22.6585, -45.0077],
+    "Polo Lucélia - SP": [-21.7189, -51.0212],
+    "Polo Novo Horizonte - SP": [-21.4676, -49.2223],
+    "Polo Osvaldo Cruz - SP": [-21.7969, -50.8797],
+    "Polo Itararé - SP": [-24.1125, -49.3352],
+    "Polo Pradópolis - SP": [-21.3539, -48.065],
+    "Polo Caçapava - SP": [-23.1006, -45.7061],
+    "Polo Cruzeiro - SP": [-22.5747, -44.9737],
+    "Polo Cubatão - SP": [-23.895, -46.4257],
+    "Polo Lençóis Paulista - SP": [-22.5985, -48.8037],
+    "Polo Lins - SP": [-21.6786, -49.7429],
+    "Polo Mongaguá - SP": [-24.0933, -46.6194],
+    "Polo Pindamonhangaba - SP": [-22.9237, -45.461],
+    "Polo Santana de Parnaíba - SP": [-23.4431, -46.9172],
+    "Polo Santo André - SP": [-23.6639, -46.5383],
+    "Polo Ubatuba - SP": [-23.4332, -45.0833],
+    "Polo Jaú - SP": [-22.2962, -48.557],
+    "Polo Bertioga - SP": [-23.8486, -46.1385],
+    "Polo Birigui - SP": [-21.2881, -50.3432],
+    "Polo Boituva - SP": [-23.2856, -47.6785],
+    "Polo Campo Limpo Paulista - SP": [-23.2072, -46.7885],
+    "Polo Mococa - SP": [-21.4645, -47.0024],
+    "Polo Embu-Guaçu - SP": [-23.8324, -46.8112],
+    "Polo Itanhaém - SP": [-24.1736, -46.788],
+    "Polo Itapetininga - SP": [-23.5915, -48.0538],
+    "Polo Santa Isabel - SP": [-23.315, -46.2233],
+    "Polo São Sebastião - SP": [-23.7669, -45.4094],
+    "Polo Várzea Paulista - SP": [-23.2137, -46.8283],
+    "Polo Itu - SP": [-23.2635, -47.2993],
+
+
       
       
     //Lista de polos em Minas Gerais
@@ -5068,7 +5138,6 @@ const cidades_brasileiras = {
     "Polo Lajinha - MG": [-20.1503, -41.6223],
     "Polo Buritizeiro - MG": [-17.3469, -44.9604],
     "Polo Araxá - MG": [-19.5908, -46.9434],
-    "Polo Brasilândia de Minas - MG": [-16.9964, -46.0098],
     "Polo Caeté - MG": [-19.8913, -43.6789],
     "Polo Itaguara - MG": [-20.3941, -44.4879],
     "Polo Betim - MG": [-19.9674, -44.1987],
@@ -5088,6 +5157,8 @@ const cidades_brasileiras = {
     "Polo Caratinga - MG": [-19.7866, -42.1284],
     "Polo São Francisco do Glória - MG": [-20.7922, -42.2717],
     "Polo Ibituruna - MG": [-21.1496, -43.1021],
+    "Polo João Monlevade - MG": [-19.8126, -43.1735],
+    "Polo Montes Claros - MG": [-16.7282, -43.8578],
 
 
 
@@ -5142,6 +5213,7 @@ const cidades_brasileiras = {
     "Polo Vitória da Conquista - BA": [-14.8615, -40.8442],
     "Polo Tabocas do Brejo Velho - BA": [-12.7021, -44.0075],
     "Polo Muritiba - BA": [-12.6321, -39.0088],
+    "Polo Salvador - BA": [-12.9714, -38.5014],
     "Polo Paripiranga - BA": [-10.6857, -37.8638],
     "Polo Cícero Dantas - BA": [-10.6036, -38.3792],
     "Polo Cruz das Almas - BA": [-12.6687, -39.1001],
@@ -5164,10 +5236,9 @@ const cidades_brasileiras = {
     "Polo Barroquinha - CE": [3.0200, -41.1372],
     "Polo Aurora - CE": [-6.9332, -38.9736],
     "Polo Sobral - CE": [-3.6897, -40.3487],
-    "Polo Pentecoste - CE": [-3.7925, -39.2706],
     "Polo Brejo Santo - CE": [-7.5170, -38.9888],
     "Polo Fortaleza - CE": [-3.7906, -38.5391],
-    "Polo Itapipoca - CE": [-3.4967, -39.5775],
+    "Polo Amontada - CE": [-3.3607, -39.8282],
 
 
       
@@ -5198,6 +5269,7 @@ const cidades_brasileiras = {
     "Polo Inhumas - GO": [-16.3616, -49.5006],
     "Polo Rio Verde - GO": [-17.7928, -50.9196],
     "Polo Formosa - GO": [-15.5387, -47.3301],
+    "Polo Trindade - GO": [-16.6517, -49.4927],
     "Polo São Luís de Montes Belos - GO": [-16.5218, -50.3725],
 
       
@@ -5229,6 +5301,7 @@ const cidades_brasileiras = {
     "Polo Nova Nazaré - MT": [-13.9478, -51.8006],
     "Polo Barra do Garças - MT": [-15.8908, -52.2596],
     "Polo Ribeirãozinho - MT": [-16.4857, -52.6754],
+    "Polo Cuiabá - MT": [-15.6014, -56.0979],
 
 
 
@@ -5237,6 +5310,7 @@ const cidades_brasileiras = {
     "Polo Dourados - MS": [-22.2215, -54.8062],
     "Polo Nova Alvorada do Sul - MS": [-21.4658, -54.3829],
     "Polo Três Lagoas - MS": [-20.7842, -51.6994],
+    "Polo Campo Grande - MS": [-20.4697, -54.6201],
     "Polo Coxim - MS": [-18.5078, -54.7513],
     "Polo Bonito - MS": [-21.1256, -56.4813],
     "Polo Camapuã - MS": [-19.5341, -54.0435],
@@ -5251,11 +5325,11 @@ const cidades_brasileiras = {
     "Polo Abaetetuba - PA": [-1.7218, -48.8788],
     "Polo Óbidos - PA": [-1.9059, -55.5207],
     "Polo Belém 2 - PA": [-1.4557, -48.4902],
-    "Polo Limoeiro do Ajuru - PA": [-1.9064, -49.3907],
 
     // Polos da Paraíba
     "Polo Patos - PB": [-7.0165, -37.2748],
     "Polo Cajazeiras - PB": [-6.8884, -38.5575],
+    "Polo João Pessoa - PB": [-7.1195, -34.845],
 
 
     // Polos do Paraná
@@ -5265,7 +5339,6 @@ const cidades_brasileiras = {
     "Polo Umuarama - PR": [-23.7651, -53.3146],
     "Polo Paranaguá - PR": [-25.5159, -48.5195],
     "Polo Tibagi - PR": [-24.5152, -50.4147],
-    "Polo Fênix - PR": [-23.9222, -51.9828],
     "Polo Guaraqueçaba - PR": [-25.3028, -48.3216],
     "Polo Arapongas - PR": [-23.4122, -51.4336],
     "Polo Jaguapitã - PR": [-23.1103, -51.534],
@@ -5300,6 +5373,10 @@ const cidades_brasileiras = {
     "Polo Resende - RJ": [-22.4705, -44.4504],
     "Polo Volta Redonda - RJ": [-22.5228, -44.1043],
     "Polo Nova Iguaçu - RJ": [-22.755, -43.446],
+    "Polo Itaboraí - RJ": [-22.7591, -42.8681],
+    "Polo Duque de Caxias - RJ": [-22.7856, -43.3083],
+    "Polo Rio de Janeiro - RJ": [-22.9068, -43.1729],
+    "Polo São Gonçalo - RJ": [-22.8264, -42.9614],
 
     // Polos Rio Grande do Norte
     "Polo Lagoa Nova - RN": [-6.0931, -36.4783],
@@ -5310,6 +5387,7 @@ const cidades_brasileiras = {
     "Polo Caicó - RN": [-6.4543, -37.097],
     "Polo Carnaubais - RN": [-5.3416, -36.8338],
     "Polo São Bento do Trairi - RN": [-6.1668, -36.0869],
+    "Polo Natal - RN": [-5.7945, -35.2110],
 
 
     // Polos do Rio Grande do Sul
@@ -5326,20 +5404,26 @@ const cidades_brasileiras = {
     "Polo Tramandaí - RS": [-29.9858, -50.1328],
     "Polo Lajeado - RS": [-29.4592, -51.9647],
     "Polo Venâncio Aires - RS": [-29.6147, -52.1931],
+    "Polo Bagé - RS": [-31.3314, -54.1025],
+    
 
     // Polos de Rondônia
     "Polo São Francisco do Guaporé - RO": [-12.0834, -63.0002],
     "Polo Ariquemes - RO": [-9.9142, -63.0380],
+    "Polo Porto Velho - RO": [-8.7613, -63.9039],
 
     
     // Polos de Roraima
     "Polo São João da Baliza - RR": [1.8604, -59.8686],
+    "Polo Boa Vista - RR": [2.8234, -60.6758],
 
 
     // Polos de Santa Catarina
-    "Polo Araranguá - SC": [-28.9369, -49.4853],
     "Polo Blumenau - SC": [-26.9196, -49.0660],
     "Polo Itapema - SC": [-27.0896, -48.6164],
+    "Polo Florianópolis - SC": [-27.5952, -48.5480],
+    "Polo Joinville - SC": [-26.3045, -48.8455],
+    
 
     // Polos de Sergipe
     "Polo Aquidabã - SE": [-10.2780, -37.0141],
@@ -5350,6 +5434,7 @@ const cidades_brasileiras = {
     "Polo Estância - SE": [-11.2669, -37.4516],
     "Polo Campo do Brito - SE": [-10.7336, -37.1884],
     "Polo São Cristóvão - SE": [-11.0080, -37.2043],
+    "Polo Aracaju - SE": [-10.9472, -37.0731],
 
     // Polos de Tocantins
     "Polo Palmas - TO": [-10.1837, -48.3331],
