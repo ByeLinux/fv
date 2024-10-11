@@ -5527,19 +5527,19 @@ const cidades_brasileiras = {
     const dLat = toRad(lat2 - lat1);
     const dLon = toRad(lon2 - lon1);
     const a =
-      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-      Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
-      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     const distancia = R * c; // Distância em quilômetros
     return distancia;
-  }
+}
 
-  function toRad(valor) {
+function toRad(valor) {
     return valor * Math.PI / 180;
-  }
+}
 
-  function formatarNomeCidade(nomeCidade) {
+function formatarNomeCidade(nomeCidade) {
     const partes = nomeCidade.trim().toLowerCase().split('-');
     const cidade = partes[0].trim();
     const uf = partes[1] ? partes[1].trim().toUpperCase() : '';
@@ -5548,37 +5548,36 @@ const cidades_brasileiras = {
     const nomeFormatado = partesNome.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
 
     return `${nomeFormatado} - ${uf}`;
-  }
+}
 
-  function encontrarPoloMaisProximo(cidade) {
+function encontrarPoloMaisProximo(cidade) {
     const cidadeFormatada = formatarNomeCidade(cidade);
-
     let menorDistancia = Infinity;
     let poloProximo = null;
 
-    if (cidadeFormatada in cidades_brasileiras) {
-      const coordenadasAluno = cidades_brasileiras[cidadeFormatada];
+    if (cidades_brasileiras[cidadeFormatada]) {
+        const coordenadasAluno = cidades_brasileiras[cidadeFormatada];
 
-      for (const [polo, coordenadas] of Object.entries(polos_Faveni)) {
-        const distancia = calcularDistancia(coordenadasAluno[0], coordenadasAluno[1], coordenadas[0], coordenadas[1]);
-        if (distancia < menorDistancia) {
-          menorDistancia = distancia;
-          poloProximo = polo;
+        for (const [polo, coordenadas] of Object.entries(polos_Faveni)) {
+            const distancia = calcularDistancia(coordenadasAluno[0], coordenadasAluno[1], coordenadas[0], coordenadas[1]);
+            if (distancia < menorDistancia) {
+                menorDistancia = distancia;
+                poloProximo = polo;
+            }
         }
-      }
     }
 
-    return [poloProximo, menorDistancia];
-  }
+    return [poloProximo, menorDistancia === Infinity ? null : menorDistancia];
+}
 
-  function buscar() {
+function buscar() {
     const cidadeAluno = document.getElementById('cidade').value.trim();
     const resultadoElement = document.getElementById('resultado');
     const [poloProximo, distancia] = encontrarPoloMaisProximo(cidadeAluno);
 
-    if (poloProximo) {
-      resultadoElement.textContent = `O polo mais próximo de ${cidadeAluno} está em ${poloProximo} e está a aproximadamente ${distancia.toFixed(2)} km de distância.`;
+    if (poloProximo && distancia !== null) {
+        resultadoElement.textContent = `O polo mais próximo de ${cidadeAluno} está em ${poloProximo} e está a aproximadamente ${distancia.toFixed(2)} km de distância.`;
     } else {
-      resultadoElement.textContent = "Não há polos da universidade próximos à sua cidade.";
+        resultadoElement.textContent = "Não há polos da universidade próximos à sua cidade.";
     }
-  }
+}
